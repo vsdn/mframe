@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Williant Mobile</title>
+
+    <link rel="shortcut icon" href="http://img.cgv.co.kr/WebApp/images/common/favicon_cgv.png">
+    <link rel="apple-touch-icon" sizes="114×114" href="http://img.cgv.co.kr/WebApp/images/common/favicon_cgv.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+    <script type="application/javascript" src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
+    <script type="application/javascript" src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>
+    <script type="application/javascript" src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+    <script type="text/babel" src="../js/common.js"></script>
+    <script type="text/babel" src="../js/component.js"></script>
+    <script type="text/babel" src="../js/clmnlist.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="msgBox" class="globalMsg"></div>
+        <div id="srchArea" class="search"></div>
+        <div id="gridArea" class="gridMain"></div>
+        <div id="editArea" class="editArea"></div>
+    </div>
+</body>
+
+<script type="text/babel">
+    var thisPage = new clmnList();
+    thisPage.initPage();
+</script>
+
